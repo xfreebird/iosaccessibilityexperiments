@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A18D6D96-D699-45CD-B20F-90ADBF12F561</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Accessibility Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>059E2D83-DA22-456A-A948-FD2A509F084B</key>
+		<string>https://github.com/xfreebird/iosaccessibilityexperiments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Accessibility Demo/Accessibility Demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>059E2D83-DA22-456A-A948-FD2A509F084B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xfreebird/iosaccessibilityexperiments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>059E2D83-DA22-456A-A948-FD2A509F084B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>059E2D83-DA22-456A-A948-FD2A509F084B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosaccessibilityexperiments</string>
+		</dict>
+	</array>
+</dict>
+</plist>
