@@ -16,8 +16,8 @@
             <rect key="frame" x="0.0" y="0.0" width="168" height="60"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8M-fN-dfd">
-                    <rect key="frame" x="12" y="14" width="39" height="41"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8M-fN-dfd">
+                    <rect key="frame" x="12" y="9" width="40" height="42"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="+">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,9 +26,12 @@
                         <action selector="incerementValue:" destination="-1" eventType="touchUpInside" id="TGv-l2-uHG"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUo-44-6Ye">
-                    <rect key="frame" x="121" y="14" width="35" height="41"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUo-44-6Ye">
+                    <rect key="frame" x="121" y="9" width="35" height="42"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="TAZ-fb-aV7"/>
+                    </constraints>
                     <state key="normal" title="-">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -36,14 +39,26 @@
                         <action selector="decrementValue:" destination="-1" eventType="touchUpInside" id="18h-LS-lvA"/>
                     </connections>
                 </button>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyg-UW-HtZ">
-                    <rect key="frame" x="66" y="24" width="35" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyg-UW-HtZ">
+                    <rect key="frame" x="58" y="19" width="53" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.67886607648959596" green="1" blue="0.82681061776103704" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="iUo-44-6Ye" firstAttribute="leading" secondItem="uyg-UW-HtZ" secondAttribute="trailing" constant="10" id="Dpv-y7-ZlJ"/>
+                <constraint firstItem="uyg-UW-HtZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ftf-CC-mTP"/>
+                <constraint firstItem="c8M-fN-dfd" firstAttribute="bottom" secondItem="iUo-44-6Ye" secondAttribute="bottom" id="QwH-jv-reX"/>
+                <constraint firstItem="c8M-fN-dfd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="RYw-Tm-iuk"/>
+                <constraint firstItem="c8M-fN-dfd" firstAttribute="top" secondItem="iUo-44-6Ye" secondAttribute="top" id="Wth-AQ-oql"/>
+                <constraint firstItem="uyg-UW-HtZ" firstAttribute="leading" secondItem="c8M-fN-dfd" secondAttribute="trailing" constant="6" id="ZdP-tF-zef"/>
+                <constraint firstItem="uyg-UW-HtZ" firstAttribute="centerY" secondItem="c8M-fN-dfd" secondAttribute="centerY" id="ip3-49-YCT"/>
+                <constraint firstAttribute="bottom" secondItem="uyg-UW-HtZ" secondAttribute="bottom" constant="20" symbolic="YES" id="o18-zE-o9b"/>
+                <constraint firstAttribute="trailing" secondItem="iUo-44-6Ye" secondAttribute="trailing" constant="12" id="rfK-6K-Zsq"/>
+                <constraint firstItem="c8M-fN-dfd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="yHx-Ac-maV"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>

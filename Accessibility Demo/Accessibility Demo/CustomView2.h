@@ -14,4 +14,5 @@
 @property (weak, nonatomic) IBOutlet UIButton *decrementButton;
 @property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 @property (assign, nonatomic) NSInteger value;
+@property (assign, nonatomic) BOOL disableDefaultTrait;
 @end

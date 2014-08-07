@@ -20,6 +20,8 @@
         _customView        = [[[NSBundle mainBundle] loadNibNamed:@"CustomView2" owner:self options:nil] lastObject];
         _customView.frame  = self.bounds;
         
+        self.disableDefaultTrait = NO;
+        
         [self addSubview:_customView];
         
         
