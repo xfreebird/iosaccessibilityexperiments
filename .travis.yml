@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: Accessibility Demo/Accessibility Demo/MyNewProject.xcodeproj
+xcode_project: Accessibility Demo/Accessibility Demo/Accessibility Demo.xcodeproj
 xcode_scheme: Accessibility DemoTests
