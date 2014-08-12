@@ -33,6 +33,8 @@
 		D15E16771992CEED00419FC0 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15E16761992CEED00419FC0 /* CustomView.m */; };
 		D15E167D1992E79600419FC0 /* CustomView2.m in Sources */ = {isa = PBXBuildFile; fileRef = D15E167C1992E79600419FC0 /* CustomView2.m */; };
 		D15E167F1992E7A600419FC0 /* CustomView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15E167E1992E7A500419FC0 /* CustomView2.xib */; };
+		D1A452E4199AAA77006589B5 /* NGHButtonsControolerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A452E2199AAA77006589B5 /* NGHButtonsControolerViewController.m */; };
+		D1A452E5199AAA77006589B5 /* NGHButtonsControolerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A452E3199AAA77006589B5 /* NGHButtonsControolerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,9 @@
 		D15E167B1992E79600419FC0 /* CustomView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView2.h; sourceTree = "<group>"; };
 		D15E167C1992E79600419FC0 /* CustomView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView2.m; sourceTree = "<group>"; };
 		D15E167E1992E7A500419FC0 /* CustomView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView2.xib; sourceTree = "<group>"; };
+		D1A452E1199AAA77006589B5 /* NGHButtonsControolerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGHButtonsControolerViewController.h; sourceTree = "<group>"; };
+		D1A452E2199AAA77006589B5 /* NGHButtonsControolerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGHButtonsControolerViewController.m; sourceTree = "<group>"; };
+		D1A452E3199AAA77006589B5 /* NGHButtonsControolerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NGHButtonsControolerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +172,9 @@
 				D15E16691992CCAF00419FC0 /* NGHBlueViewController.h */,
 				D15E166A1992CCAF00419FC0 /* NGHBlueViewController.m */,
 				D15E166B1992CCAF00419FC0 /* NGHBlueViewController.xib */,
+				D1A452E1199AAA77006589B5 /* NGHButtonsControolerViewController.h */,
+				D1A452E2199AAA77006589B5 /* NGHButtonsControolerViewController.m */,
+				D1A452E3199AAA77006589B5 /* NGHButtonsControolerViewController.xib */,
 			);
 			path = "Accessibility Demo";
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15E166D1992CCAF00419FC0 /* NGHBlueViewController.xib in Resources */,
+				D1A452E5199AAA77006589B5 /* NGHButtonsControolerViewController.xib in Resources */,
 				D15E167F1992E7A600419FC0 /* CustomView2.xib in Resources */,
 				D15E165E1992C68B00419FC0 /* NGHEntryPointViewController.xib in Resources */,
 				D15E16311992C4EE00419FC0 /* InfoPlist.strings in Resources */,
@@ -308,6 +317,7 @@
 				D15E16671992CC9900419FC0 /* NGHRedViewController.m in Sources */,
 				D15E167D1992E79600419FC0 /* CustomView2.m in Sources */,
 				D15E16371992C4EE00419FC0 /* NGHAppDelegate.m in Sources */,
+				D1A452E4199AAA77006589B5 /* NGHButtonsControolerViewController.m in Sources */,
 				D15E166C1992CCAF00419FC0 /* NGHBlueViewController.m in Sources */,
 				D15E16771992CEED00419FC0 /* CustomView.m in Sources */,
 				D15E16331992C4EE00419FC0 /* main.m in Sources */,
@@ -510,6 +520,7 @@
 				D15E16511992C4EE00419FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D15E16521992C4EE00419FC0 /* Build configuration list for PBXNativeTarget "Accessibility DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +529,7 @@
 				D15E16541992C4EE00419FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

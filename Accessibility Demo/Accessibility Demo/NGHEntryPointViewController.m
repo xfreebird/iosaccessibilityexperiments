@@ -11,6 +11,7 @@
 #import "NGHRedViewController.h"
 #import "NGHYellowTableViewController.h"
 #import "NGHBlueViewController.h"
+#import "NGHButtonsControolerViewController.h"
 
 @interface NGHEntryPointViewController ()
 
@@ -48,8 +49,13 @@
     viewController3.tabBarItem = barItem;
 
 
+    UIViewController *viewController4 = [NGHButtonsControolerViewController new];
     
-    self.viewControllers = @[viewController, viewController2, viewController3];
+    barItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore tag:2];
+    viewController4.tabBarItem = barItem;
+
+    
+    self.viewControllers = @[viewController4, viewController, viewController2, viewController3];
     
     // Do any additional setup after loading the view from its nib.
 }
