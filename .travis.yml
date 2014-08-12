@@ -1,0 +1,2 @@
+language: objective-c
+script: xcodebuild -project "Accessibility Demo/Accessibility Demo.xcodeproj" -scheme "Accessibility Demo" -configuration "Debug" -sdk iphonesimulator 
